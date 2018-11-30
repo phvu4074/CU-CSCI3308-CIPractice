@@ -1,0 +1,5 @@
+os: linux
+script: make clean && make test
+language: c
+sudo: required
+install: sudo apt-get install check
